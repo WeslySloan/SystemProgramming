@@ -1,0 +1,4 @@
+인의예지신과 중도에 대해 기술하시오
+
+block, non block, sync, async
+dbcreate.c dbquery.c dbupdate.c 작성하시오
