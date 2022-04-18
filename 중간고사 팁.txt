@@ -1,3 +1,21 @@
 리눅스 명령어의 도움말을 얻는 방법 3가지 이상에 대해 기술하시오
-
 man ls, ls --help, info ls
+
+vi 에디터의 모드(명령, 편집 :)에 대해 설명하고
+이동 삭제 복사 붙여넣기 블럭지정 탐색 찾기 바꾸기에 대해 기술하시오
+이동 - h좌,j하,k상,l우
+
+동기 비동기 브럭 넌블럭에 대해 기술하시오
+block, non block, sync, async
+
+시스템 호출과 C 라이브러리 함수에 대해 기술하시오
+
+라이브러리, API, ABI, framework에 대해 기술하시오
+
+student.h dbcreate.c dbquery.c dbupdate.c 작성하시오
+
+인의예지신과 중도에 대해 기술하시오
+측은지심 수오지심 사양지심 시비지심 광명지심
+중도 - 적당히
+
+dbcreate.c dbquery.c dbupdate.c 작성하시오
