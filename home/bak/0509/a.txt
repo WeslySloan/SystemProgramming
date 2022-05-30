@@ -1,0 +1,3 @@
+test fwrite2.c
+option: 0123
+0123456789
