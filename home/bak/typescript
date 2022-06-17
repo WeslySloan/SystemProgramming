@@ -1,0 +1,171 @@
+Script started on 2022-03-21 19:56:22+09:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+]0;root@DESKTOP-JU5AR0G: /home/weslysloanroot@DESKTOP-JU5AR0G:/home/weslysloan# in[K[K#nic[K[Ki[K[Kni[K[K[K
+]0;root@DESKTOP-JU5AR0G: /home/weslysloanroot@DESKTOP-JU5AR0G:/home/weslysloan# ^M[Kapt-get install gcc
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 59%Reading package lists... 59%Reading package lists... 90%Reading package lists... 90%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  binutils binutils-common binutils-x86-64-linux-gnu cpp cpp-9 gcc-9 gcc-9-base libasan5 libatomic1 libbinutils
+  libc-dev-bin libc6-dev libcc1-0 libcrypt-dev libctf-nobfd0 libctf0 libgcc-9-dev libgomp1 libisl22 libitm1 liblsan0
+  libmpc3 libquadmath0 libtsan0 libubsan1 linux-libc-dev manpages-dev
+Suggested packages:
+  binutils-doc cpp-doc gcc-9-locales gcc-multilib make autoconf automake libtool flex bison gdb gcc-doc gcc-9-multilib
+  gcc-9-doc glibc-doc
+The following NEW packages will be installed:
+  binutils binutils-common binutils-x86-64-linux-gnu cpp cpp-9 gcc gcc-9 gcc-9-base libasan5 libatomic1 libbinutils
+  libc-dev-bin libc6-dev libcc1-0 libcrypt-dev libctf-nobfd0 libctf0 libgcc-9-dev libgomp1 libisl22 libitm1 liblsan0
+  libmpc3 libquadmath0 libtsan0 libubsan1 linux-libc-dev manpages-dev
+0 upgraded, 28 newly installed, 0 to remove and 0 not upgraded.
+Need to get 28.5 MB of archives.
+After this operation, 123 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y Y
+0% [Working]            Get:1 http://archive.ubuntu.com/ubuntu focal/main amd64 binutils-common amd64 2.34-6ubuntu1 [207 kB]
+0% [1 binutils-common 14.2 kB/207 kB 7%]0% [1 binutils-common 86.6 kB/207 kB 42%]                                         1% [Working]            Get:2 http://archive.ubuntu.com/ubuntu focal/main amd64 libbinutils amd64 2.34-6ubuntu1 [474 kB]
+1% [2 libbinutils 2613 B/474 kB 1%]                                   3% [Waiting for headers]                        Get:3 http://archive.ubuntu.com/ubuntu focal/main amd64 libctf-nobfd0 amd64 2.34-6ubuntu1 [47.0 kB]
+3% [3 libctf-nobfd0 2272 B/47.0 kB 5%]                                      4% [Working]            Get:4 http://archive.ubuntu.com/ubuntu focal/main amd64 libctf0 amd64 2.34-6ubuntu1 [46.6 kB]
+4% [4 libctf0 1299 B/46.6 kB 3%]                                5% [Waiting for headers]                        Get:5 http://archive.ubuntu.com/ubuntu focal/main amd64 binutils-x86-64-linux-gnu amd64 2.34-6ubuntu1 [1614 kB]
+5% [5 binutils-x86-64-linux-gnu 2178 B/1614 kB 0%]                                                  10% [Waiting for headers]                         Get:6 http://archive.ubuntu.com/ubuntu focal/main amd64 binutils amd64 2.34-6ubuntu1 [3376 B]
+10% [6 binutils 3376 B/3376 B 100%]                                   11% [Working]             Get:7 http://archive.ubuntu.com/ubuntu focal/main amd64 gcc-9-base amd64 9.3.0-10ubuntu2 [19.3 kB]
+11% [7 gcc-9-base 1790 B/19.3 kB 9%]                                    12% [Working]             Get:8 http://archive.ubuntu.com/ubuntu focal/main amd64 libisl22 amd64 0.22.1-1 [592 kB]
+12% [8 libisl22 8255 B/592 kB 1%]                                 14% [Waiting for headers]                         Get:9 http://archive.ubuntu.com/ubuntu focal/main amd64 libmpc3 amd64 1.1.0-1 [40.8 kB]
+14% [9 libmpc3 0 B/40.8 kB 0%]                              15% [Waiting for headers]                         Get:10 http://archive.ubuntu.com/ubuntu focal/main amd64 cpp-9 amd64 9.3.0-10ubuntu2 [7491 kB]
+15% [10 cpp-9 4825 B/7491 kB 0%]                                37% [Working]             Get:11 http://archive.ubuntu.com/ubuntu focal/main amd64 cpp amd64 4:9.3.0-1ubuntu2 [27.6 kB]
+37% [11 cpp 14.3 kB/27.6 kB 52%]                                37% [Working]             Get:12 http://archive.ubuntu.com/ubuntu focal/main amd64 libcc1-0 amd64 10-20200411-0ubuntu1 [41.1 kB]
+37% [12 libcc1-0 0 B/41.1 kB 0%]                                38% [Working]             Get:13 http://archive.ubuntu.com/ubuntu focal/main amd64 libgomp1 amd64 10-20200411-0ubuntu1 [101 kB]
+38% [13 libgomp1 10.5 kB/101 kB 10%]                                    39% [Working]             Get:14 http://archive.ubuntu.com/ubuntu focal/main amd64 libitm1 amd64 10-20200411-0ubuntu1 [26.3 kB]
+39% [14 libitm1 4096 B/26.3 kB 16%]                                   40% [Waiting for headers]                         Get:15 http://archive.ubuntu.com/ubuntu focal/main amd64 libatomic1 amd64 10-20200411-0ubuntu1 [9284 B]
+40% [15 libatomic1 9284 B/9284 B 100%]                                      41% [Working]             Get:16 http://archive.ubuntu.com/ubuntu focal/main amd64 libasan5 amd64 9.3.0-10ubuntu2 [395 kB]
+41% [16 libasan5 0 B/395 kB 0%]                               43% [Working]             Get:17 http://archive.ubuntu.com/ubuntu focal/main amd64 liblsan0 amd64 10-20200411-0ubuntu1 [144 kB]
+43% [17 liblsan0 1826 B/144 kB 1%]                                  44% [Waiting for headers]                         Get:18 http://archive.ubuntu.com/ubuntu focal/main amd64 libtsan0 amd64 10-20200411-0ubuntu1 [319 kB]
+44% [18 libtsan0 12.2 kB/319 kB 4%]                                   45% [Working]             Get:19 http://archive.ubuntu.com/ubuntu focal/main amd64 libubsan1 amd64 10-20200411-0ubuntu1 [136 kB]
+45% [19 libubsan1 0 B/136 kB 0%]                                46% [Waiting for headers]                         Get:20 http://archive.ubuntu.com/ubuntu focal/main amd64 libquadmath0 amd64 10-20200411-0ubuntu1 [146 kB]
+47% [20 libquadmath0 20.5 kB/146 kB 14%]                                        48% [Waiting for headers]                         Get:21 http://archive.ubuntu.com/ubuntu focal/main amd64 libgcc-9-dev amd64 9.3.0-10ubuntu2 [2359 kB]
+48% [21 libgcc-9-dev 11.4 kB/2359 kB 0%]                                        55% [Working]             Get:22 http://archive.ubuntu.com/ubuntu focal/main amd64 gcc-9 amd64 9.3.0-10ubuntu2 [8234 kB]
+55% [22 gcc-9 16.4 kB/8234 kB 0%]                                 79% [Waiting for headers]                         Get:23 http://archive.ubuntu.com/ubuntu focal/main amd64 gcc amd64 4:9.3.0-1ubuntu2 [5208 B]
+79% [23 gcc 5208 B/5208 B 100%]                               79% [Waiting for headers]                         Get:24 http://archive.ubuntu.com/ubuntu focal/main amd64 libc-dev-bin amd64 2.31-0ubuntu9 [71.8 kB]
+80% [24 libc-dev-bin 41.0 kB/71.8 kB 57%]                                         80% [Waiting for headers]                         Get:25 http://archive.ubuntu.com/ubuntu focal/main amd64 linux-libc-dev amd64 5.4.0-26.30 [1106 kB]
+80% [25 linux-libc-dev 35.6 kB/1106 kB 3%]                                          84% [Working]             Get:26 http://archive.ubuntu.com/ubuntu focal/main amd64 libcrypt-dev amd64 1:4.4.10-10ubuntu4 [104 kB]
+84% [26 libcrypt-dev 12.3 kB/104 kB 12%]                                        85% [Working]             Get:27 http://archive.ubuntu.com/ubuntu focal/main amd64 libc6-dev amd64 2.31-0ubuntu9 [2520 kB]
+85% [27 libc6-dev 10.5 kB/2520 kB 0%]                                     93% [Working]             Get:28 http://archive.ubuntu.com/ubuntu focal/main amd64 manpages-dev all 5.05-1 [2266 kB]
+93% [28 manpages-dev 16.4 kB/2266 kB 1%]                                        100% [Working]              Fetched 28.5 MB in 4s (7397 kB/s)
+Selecting previously unselected package binutils-common:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 31836 files and directories currently installed.)
+Preparing to unpack .../00-binutils-common_2.34-6ubuntu1_amd64.deb ...
+Unpacking binutils-common:amd64 (2.34-6ubuntu1) ...
+Selecting previously unselected package libbinutils:amd64.
+Preparing to unpack .../01-libbinutils_2.34-6ubuntu1_amd64.deb ...
+Unpacking libbinutils:amd64 (2.34-6ubuntu1) ...
+Selecting previously unselected package libctf-nobfd0:amd64.
+Preparing to unpack .../02-libctf-nobfd0_2.34-6ubuntu1_amd64.deb ...
+Unpacking libctf-nobfd0:amd64 (2.34-6ubuntu1) ...
+Selecting previously unselected package libctf0:amd64.
+Preparing to unpack .../03-libctf0_2.34-6ubuntu1_amd64.deb ...
+Unpacking libctf0:amd64 (2.34-6ubuntu1) ...
+Selecting previously unselected package binutils-x86-64-linux-gnu.
+Preparing to unpack .../04-binutils-x86-64-linux-gnu_2.34-6ubuntu1_amd64.deb ...
+Unpacking binutils-x86-64-linux-gnu (2.34-6ubuntu1) ...
+Selecting previously unselected package binutils.
+Preparing to unpack .../05-binutils_2.34-6ubuntu1_amd64.deb ...
+Unpacking binutils (2.34-6ubuntu1) ...
+Selecting previously unselected package gcc-9-base:amd64.
+Preparing to unpack .../06-gcc-9-base_9.3.0-10ubuntu2_amd64.deb ...
+Unpacking gcc-9-base:amd64 (9.3.0-10ubuntu2) ...
+Selecting previously unselected package libisl22:amd64.
+Preparing to unpack .../07-libisl22_0.22.1-1_amd64.deb ...
+Unpacking libisl22:amd64 (0.22.1-1) ...
+Selecting previously unselected package libmpc3:amd64.
+Preparing to unpack .../08-libmpc3_1.1.0-1_amd64.deb ...
+Unpacking libmpc3:amd64 (1.1.0-1) ...
+Selecting previously unselected package cpp-9.
+Preparing to unpack .../09-cpp-9_9.3.0-10ubuntu2_amd64.deb ...
+Unpacking cpp-9 (9.3.0-10ubuntu2) ...
+Selecting previously unselected package cpp.
+Preparing to unpack .../10-cpp_4%3a9.3.0-1ubuntu2_amd64.deb ...
+Unpacking cpp (4:9.3.0-1ubuntu2) ...
+Selecting previously unselected package libcc1-0:amd64.
+Preparing to unpack .../11-libcc1-0_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking libcc1-0:amd64 (10-20200411-0ubuntu1) ...
+Selecting previously unselected package libgomp1:amd64.
+Preparing to unpack .../12-libgomp1_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking libgomp1:amd64 (10-20200411-0ubuntu1) ...
+Selecting previously unselected package libitm1:amd64.
+Preparing to unpack .../13-libitm1_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking libitm1:amd64 (10-20200411-0ubuntu1) ...
+Selecting previously unselected package libatomic1:amd64.
+Preparing to unpack .../14-libatomic1_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking libatomic1:amd64 (10-20200411-0ubuntu1) ...
+Selecting previously unselected package libasan5:amd64.
+Preparing to unpack .../15-libasan5_9.3.0-10ubuntu2_amd64.deb ...
+Unpacking libasan5:amd64 (9.3.0-10ubuntu2) ...
+Selecting previously unselected package liblsan0:amd64.
+Preparing to unpack .../16-liblsan0_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking liblsan0:amd64 (10-20200411-0ubuntu1) ...
+Selecting previously unselected package libtsan0:amd64.
+Preparing to unpack .../17-libtsan0_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking libtsan0:amd64 (10-20200411-0ubuntu1) ...
+Selecting previously unselected package libubsan1:amd64.
+Preparing to unpack .../18-libubsan1_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking libubsan1:amd64 (10-20200411-0ubuntu1) ...
+Selecting previously unselected package libquadmath0:amd64.
+Preparing to unpack .../19-libquadmath0_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking libquadmath0:amd64 (10-20200411-0ubuntu1) ...
+Selecting previously unselected package libgcc-9-dev:amd64.
+Preparing to unpack .../20-libgcc-9-dev_9.3.0-10ubuntu2_amd64.deb ...
+Unpacking libgcc-9-dev:amd64 (9.3.0-10ubuntu2) ...
+Selecting previously unselected package gcc-9.
+Preparing to unpack .../21-gcc-9_9.3.0-10ubuntu2_amd64.deb ...
+Unpacking gcc-9 (9.3.0-10ubuntu2) ...
+Selecting previously unselected package gcc.
+Preparing to unpack .../22-gcc_4%3a9.3.0-1ubuntu2_amd64.deb ...
+Unpacking gcc (4:9.3.0-1ubuntu2) ...
+Selecting previously unselected package libc-dev-bin.
+Preparing to unpack .../23-libc-dev-bin_2.31-0ubuntu9_amd64.deb ...
+Unpacking libc-dev-bin (2.31-0ubuntu9) ...
+Selecting previously unselected package linux-libc-dev:amd64.
+Preparing to unpack .../24-linux-libc-dev_5.4.0-26.30_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (5.4.0-26.30) ...
+Selecting previously unselected package libcrypt-dev:amd64.
+Preparing to unpack .../25-libcrypt-dev_1%3a4.4.10-10ubuntu4_amd64.deb ...
+Unpacking libcrypt-dev:amd64 (1:4.4.10-10ubuntu4) ...
+Selecting previously unselected package libc6-dev:amd64.
+Preparing to unpack .../26-libc6-dev_2.31-0ubuntu9_amd64.deb ...
+Unpacking libc6-dev:amd64 (2.31-0ubuntu9) ...
+Selecting previously unselected package manpages-dev.
+Preparing to unpack .../27-manpages-dev_5.05-1_all.deb ...
+Unpacking manpages-dev (5.05-1) ...
+Setting up manpages-dev (5.05-1) ...
+Setting up binutils-common:amd64 (2.34-6ubuntu1) ...
+Setting up linux-libc-dev:amd64 (5.4.0-26.30) ...
+Setting up libctf-nobfd0:amd64 (2.34-6ubuntu1) ...
+Setting up libgomp1:amd64 (10-20200411-0ubuntu1) ...
+Setting up libquadmath0:amd64 (10-20200411-0ubuntu1) ...
+Setting up libmpc3:amd64 (1.1.0-1) ...
+Setting up libatomic1:amd64 (10-20200411-0ubuntu1) ...
+Setting up libubsan1:amd64 (10-20200411-0ubuntu1) ...
+Setting up libcrypt-dev:amd64 (1:4.4.10-10ubuntu4) ...
+Setting up libisl22:amd64 (0.22.1-1) ...
+Setting up libbinutils:amd64 (2.34-6ubuntu1) ...
+Setting up libc-dev-bin (2.31-0ubuntu9) ...
+Setting up libcc1-0:amd64 (10-20200411-0ubuntu1) ...
+Setting up liblsan0:amd64 (10-20200411-0ubuntu1) ...
+Setting up libitm1:amd64 (10-20200411-0ubuntu1) ...
+Setting up gcc-9-base:amd64 (9.3.0-10ubuntu2) ...
+Setting up libtsan0:amd64 (10-20200411-0ubuntu1) ...
+Setting up libctf0:amd64 (2.34-6ubuntu1) ...
+Setting up libasan5:amd64 (9.3.0-10ubuntu2) ...
+Setting up cpp-9 (9.3.0-10ubuntu2) ...
+Setting up libc6-dev:amd64 (2.31-0ubuntu9) ...
+Setting up binutils-x86-64-linux-gnu (2.34-6ubuntu1) ...
+Setting up binutils (2.34-6ubuntu1) ...
+Setting up libgcc-9-dev:amd64 (9.3.0-10ubuntu2) ...
+Setting up cpp (4:9.3.0-1ubuntu2) ...
+Setting up gcc-9 (9.3.0-10ubuntu2) ...
+Setting up gcc (4:9.3.0-1ubuntu2) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9) ...
+/sbin/ldconfig.real: /usr/lib/wsl/lib/libcuda.so.1 is not a symbolic link
+
+]0;root@DESKTOP-JU5AR0G: /home/weslysloanroot@DESKTOP-JU5AR0G:/home/weslysloan# vim helloworld.c
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;30r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[30;1H"helloworld.c" [New File][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [20;1H~                                                                                                                       [21;1H~                                                                                                                       [22;1H~                                                                                                                       [23;1H~                                                                                                                       [24;1H~                                                                                                                       [25;1H~                                                                                                                       [26;1H~                                                                                                                       [27;1H~                                                                                                                       [28;1H~                                                                                                                       [29;1H~                                                                                                                       [m[30;103H0,0-1[9CAll[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [20;1H~                                                                                                                       [21;1H~                                                                                                                       [22;1H~                                                                                                                       [23;1H~                                                                                                                       [24;1H~                                                                                                                       [25;1H~                                                                                                                       [26;1H~                                                                                                                       [27;1H~                                                                                                                       [28;1H~                                                                                                                       [29;1H~                                                                                                                       [m[30;103H0,0-1[9CAll"helloworld.c" [New File][1;1H[?25h[?25l[30;93H#[1;1H[30;1H[97m[41mE348: No string under cursor[m[30;93H[K[1;1H[30;103H0,0-1[9CAll[1;1H[?25h[?25l[30;93H^M[1;1H[30;93H  [1;1H[?25h[?25l[30;93Hi[1;1H[30;93H [1;1H[30;1H[1m-- INSERT --[m[30;13H[K[30;103H0,1[11CAll[1;1H[?25h[?25l#[30;103H1,2[1;2H[?25h[?25li[30;105H3[1;3H[?25h[?25ln[30;105H4[1;4H[?25h[?25lc[30;105H5[1;5H[?25h[?25ll[30;105H6[1;6H[?25h[?25lu[30;105H7[1;7H[?25h[?25ld[30;105H8[1;8H[?25h[?25le[30;105H9[1;9H[?25h[?25l[30;105H10[1;10H[?25h[?25l[35m#include <[m[30;106H1[1;11H[?25h[?25lt[30;106H2[1;12H[?25h[?25ld[30;106H3[1;13H[?25h[?25li[30;106H4[1;14H[?25h[?25lo[30;106H5[1;15H[?25h[?25l[31m<tdio>[m[30;106H6[1;16H[?25h[?25l[35m<[mtdio[1;15H[K[30;106H5[1;15H[?25h[?25l[1;14H[K[30;106H4[1;14H[?25h[?25l[1;13H[K[30;106H3[1;13H[?25h[?25l[1;12H[K[30;106H2[1;12H[?25h[?25l[1;11H[K[30;106H1[1;11H[?25h[?25ls[30;106H2[1;12H[?25h[?25lt[30;106H3[1;13H[?25h[?25ld[30;106H4[1;14H[?25h[?25li[30;106H5[1;15H[?25h[?25lo[30;106H6[1;16H[?25h[?25l.[30;106H7[1;17H[?25h[?25lh[30;106H8[1;18H[?25h[?25l[1;10H[31m<stdio.h>[m[30;106H9[1;19H[?25h[?25l[2;1H[K[30;103H2,1 [2;1H[?25h[?25li[30;105H2[2;2H[?25h[?25ln[30;105H3[2;3H[?25h[?25l[32mint[m[30;105H4[2;4H[?25h[?25l[30;105H5[2;5H[?25h[?25lm[30;105H6[2;6H[?25h[?25la[30;105H7[2;7H[?25h[?25li[30;105H8[2;8H[?25h[?25ln[30;105H9[2;9H[?25h[?25l[30;105H10[2;10H[?25h[?25l([30;106H1[2;11H[?25h[?25l)[106m()[m[30;106H2[2;12H[?25h[?25l
+        [3;9H[K[2;10H()[30;103H3,2-9[3;9H[?25h[?25l
+        [4;9H[K[30;103H4[4;9H[?25h[?25l[30;105H1  [4;1H[?25h[?25l[94m~                                                                                                                       [m[30;103H3[3;1H[?25h[?25l{
